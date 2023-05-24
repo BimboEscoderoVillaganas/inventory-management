@@ -1,0 +1,40 @@
+
+
+!!!!!!!!!!!!!!!!!!kay na download na man ni nimo. ang sunod nimno buhaton sunda lang ang naas ubos!!!!!!!!!!!
+
+ADTO KA SA FILE EXPLORER DAYON DOWNLOAD E EXTRACT DAYON ANG FOLDER, PAG MA EXTRACT NA 
+E OPEN DAYON. PAG MA OPEN NA NIMO, DAYON MAKAKITA KA OG "IMS OG README FILE" E COPY ANG 
+CONTACTS NGA FOLDER DAYON
+SIGUROHA NGA KANING "IMS" NGA FOLDER MA SAVE NIMO DIDTO SA C:\xampp\htdocs NGA FILE PATH
+
+1. e open  ang cmd e run as administrator
+2. e copy ni tanan comand naas ubos
+cd c:/xampp/mysql/bin/
+mysql -u root -p
+
+Create database IMS;
+use IMS;
+Create table inventory (
+    id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255) NOT NULL,
+    description TEXT,
+    price DECIMAL(10,2) NOT NULL,
+    quantity INT(11) NOT NULL
+);
+DESCRIBE inventory;
+
+
+NOTE: PWEDE RA NA NIMO E COPY GIKAN SA "cd c:/...taman sa last nga 
+comand or "DESCRIBE inventory;" PASTE RA DAYON DIRITSO SA "CMD"
+ 
+4. open nimo ang "localhost/phpmyadmin/" tanawa didto 
+kung naa na ba ang "ims" nga database. kung naa na, 
+balik ka sa vscode dayon ikaw na bahala sa kung unsay gusto nimo ma utro sa interface 
+
+5. kung na sunod na nimo og sakto adto dayon ka sa "localhost/IMS/" para makita nimo ni nga page.
+
+ADDITIONAL: pag nasunod ni nimo tanan siguroha nga sa mga php files e delete ang 
+"//Developed BY: Villaganas, Bimbo, Escodero." nga located sa "line 3" then last e delete pud ni nga file
+
+MAO RA TO GOOD LUCK SA TANAN!
+AIM TO EXCEL!❤
